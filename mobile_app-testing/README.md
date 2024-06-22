@@ -1,35 +1,28 @@
-# mobileaction.co-testcases
+# Mobile Application SQA Test Case Examples
+This repository provides sample test cases designed to evaluate the core functionalities of MobilAction.co. It serves as a demonstration of manual testing methodologies and can be a valuable resource for anyone interested in SQA practices.
 
-Contains different testcases for mobileaction.co.
+Scope:
 
-## Test Plan
+This project focuses on the core functionalities of signing up, signing in, and creating accounts. It excludes functionalities like editing account information and creating multiple accounts.
 
-Test plan basically describes how the testing process should be performed. The things are taken into account for the test plan of mobileaction.co system are as follows: 
+Testing Performed:
 
-- Sign up, Sign in and Create account are the three features here. But Edit account info and Create multiple account, these two features are not included.
-- Different testing will be performed like system testing(functional testing, usability testing), acceptance testing (regression testing)
-- The tests will be performed under different criteria 
+Functional Testing: Verifies if the system behaves as intended for different user actions.
+Usability Testing: Evaluates the user interface's ease of use and learnability.
+Regression Testing: Confirms continued functionality after system changes.
+Test Case Structure:
 
-## Test Cases
+Each test case includes the following elements:
 
-A test case is a set of actions performed on a system to determine if it satisfies software requirements and functions correctly. Here I have included some possible test cases for mobileaction.co.
+Description: A concise explanation of the test case.
+Preconditions: The necessary conditions for executing the test.
+Test Data: Data used during test execution.
+Steps: Ordered actions to perform the test.
+Expected Result: The anticipated outcome of the test.
+Actual Result: The observed outcome during test execution.
+Status: Passed (expected and actual results match) or Failed (discrepancy between expected and actual results).
+Bug Reporting (Optional):
 
-- There are varities of test case scenerio
-- Some cases are passed and some are failed
-- There is also a summery of the test cases at the top section
-- Each test case contains a description, precondition, test data, steps, expected and actual results, a status.
-- `precondition`: are the requirement to generate the test case
-- `test data`: the data on which the case performed
-- `step description`: basically the ordered steps by following which the case can be generated
-- `expected result`: the outcomes we expect for the corresponding test case
-- `actual result`: the outcomes we got for the corresponding test case
-- `status`: if expected and actual results are same it is `passed`; otherwise `failed`
+This section may include sample bug reports associated with identified issues during test execution. It could detail the specific test case, reproduction steps, and any additional relevant information.
 
-
-## Bug Report
-
-A bug report in QA is a document that describes an issue or defect in a software application. It typically includes the environment, steps to reproduce the issue, and expected versus actual behavior. In this section I included the bug reports for the performed test cases previously mentioned for mobileaction.co.
-
-- Found several bugs at the time of test cases been executed
-- Each report says for which test case this bug has been reported
-- Contains also reproducing steps and others info
+Note: This repository serves as an example and may not encompass all aspects of a comprehensive SQA process.
