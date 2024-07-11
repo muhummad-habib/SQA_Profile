@@ -1,35 +1,33 @@
-# Manual Testing OpenCart WebApp
-This project is dedicated to manual testing of the OpenCart web application. It includes test cases, test plans, and documentation to guide manual testers in evaluating the functionality and usability of OpenCart.
+# OpenCart Web Application Manual Testing
 
-## Features:
-1. A comprehensive set of manual test cases.
-2. Test plans and documentation for organized testing.
-3. Instructions for performing manual tests on OpenCart.
-
-
-## Getting Started:
-
-1. Clone this repository.
-2. Review the provided test cases and test plans.
-3. Follow the documented steps to execute manual tests on OpenCart.
+Welcome to the repository dedicated to the manual testing of the OpenCart web application. This project includes a variety of test cases, plans, and comprehensive documentation designed to assist testers in assessing the application's functionality and user experience.
 
 
 
-## Project Structure:
 
-| File Name | Description |
-|--------------|-------------|
-| FRS(OpenCart).pdf   | This PDF likely contains the Functional Requirements Specification (FRS) document for OpenCart, outlining the functional and non-functional requirements of the software. |
-| TestPlan(OpenCart).pdf   | This PDF is likely a Test Plan document for OpenCart, providing an overview of the testing strategy, objectives, scope, and schedule for testing the software. | 
-| TestScenarios(OpenCart).xlsx | This Excel file likely contains test scenarios for OpenCart, which describe various situations and conditions that need to be tested to ensure the software functions correctly. | 
-| TestCases(OpenCart).xlsx | This Excel file probably contains a set of test cases specifically related to web registration functionality in OpenCart. It likely includes detailed steps, expected results, and test data. |
-| TestExecutions(OpenCart).xlsx | This Excel file probably contains a set of test executions specifically related to web registration functionality in OpenCart. It likely includes detailed steps, test data, expected results, actual results, priority, test results, and comments. |
-| RTM(Opencart).xlsx | This Excel file probably contains the Requirement Traceability Matrix document related to web registration functionality in OpenCart. It likely includes requirement ID, requirement description, test scenario ID and description, test cases, test result, defect ID, and also the summary report. |
-| BugReport(OpenCart).xlsx | This Excel file is likely used for tracking and documenting software bugs and issues found during testing. It may include details such as bug descriptions, severity, status, and steps to reproduce. |
-
-## Contributions:
-
-Contributions are welcome! Feel free to submit issues, enhancements, or suggestions to improve the manual testing process for OpenCart.
-Happy Manual Testing! 🚀
+## About Repository:
 
 
+### Test Plans
+- **TestPlan(OpenCart).pdf**: This document describes the testing strategy, objectives, scope, and schedule for testing OpenCart.
+
+### Test Scenarios
+- **TestScenarios(OpenCart).xlsx**: An Excel file listing various test scenarios to ensure OpenCart functions correctly under different conditions.
+
+### Test Cases
+- **TestCases(OpenCart).xlsx**: A comprehensive set of test cases focused on the web registration functionality of OpenCart, including detailed steps, expected results, and test data.
+
+### Test Executions
+- **TestExecutions(OpenCart).xlsx**: This file contains records of test executions for the web registration functionality, including steps, test data, expected vs. actual results, priorities, and comments.
+
+### Requirement Traceability
+- **RTM(Opencart).xlsx**: The Requirement Traceability Matrix (RTM) document, mapping requirements to test scenarios, test cases, results, and defects.
+
+### Bug Tracking
+- **BugReport(OpenCart).xlsx**: A tracker for documenting and managing software bugs found during testing, including bug descriptions, severity, status, and reproduction steps.
+
+## Contributing:
+
+We welcome contributions! Whether it's reporting issues, suggesting improvements, or adding new test cases, your input helps enhance the manual testing process for OpenCart.
+
+Let's ensure a smooth and effective testing experience! 🚀
